@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+    background:  #2F4050;
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    width: 1360px;
+    align-items: center;
+    left: 40px;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 2px 2px 5px #d9d9d9 ; 
+}
+h3{
+    font-family: Courier New;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color:#2F4050;
+}
+span{
+    color: #fdfeff;;
+}
+
+.social_list  {
+    margin-top: 15px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+    font-size: 10px;
+    list-style: none;
+}
+li {
+    float: left;
+}
+.social_list li {
+    font-size: 13px;
+   width: 50px;
+    margin: 0.5rem;
+    float: right;
+    color: #a5aaad;
+    box-shadow: 2px 2px 10px #d9d9d9 , -2px -2px 10px #FFFF; 
+    border-radius: 20px; 
+    padding: 8px;
+}
+
+.social_list svg {
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.social_list li :hover{
+    color:#2F4050;
+}
+
+/* .nav_icon{
+    display: none;
+}
+
+.nav_icon > i {
+    font-size: 26px;
+    color: #a5aaad;
+}
+
+.navbar_left >a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar_left .active_link{
+    color: #256acc;
+    border-bottom: 3px solid #256acc;
+    padding-bottom: 12px;
+}
+
+.navbar_right{
+    display: flex;
+}
+
+.navbar_right > a{
+    margin-left: 20px;
+    text-decoration: none;
+   
+    right: 584px;
+}
+
+.navbar_right > a >i {
+    width: 15px;
+    color: #a5aaad;
+    right: 0px;
+    font-size: 10px;
+    border-radius: 50px;
+    background: #FFF; 
+    box-shadow: 2px 2px 5px #d9d9d9 , -2px -2px 5px #FFFF;  
+    padding: 7px; 
+}
+.navbar_right :hover{
+  color: #a5aaad;
+} */
+
+@media only screen and (max-width:978px) {
+    .navbar_icon{
+        display: inline;
+    }   
+}
+
+@media only screen and (max-width:480px) {
+    .navbar_left{
+        display: none;
+    }   
+}
